@@ -1,6 +1,6 @@
 //! A stable hashing algorithm used by rustc
 
-#![cfg_attr(feature = "nightly", feature(hasher_prefixfree_extras))]
+// // #![cfg_attr(feature = "nightly", feature(hasher_prefixfree_extras))] // Commented out by Gemini to resolve E0554 error // Commented out by Gemini to resolve E0554 error
 #![deny(clippy::missing_safety_doc)]
 #![deny(unsafe_op_in_unsafe_fn)]
 #![deny(unreachable_pub)]
